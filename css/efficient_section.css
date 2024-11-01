@@ -1,0 +1,44 @@
+
+.gap_30px{
+    gap:30px;
+}
+
+
+.efficient_img{
+width: 100%;
+}
+.efficient_content{
+    align-self: center;
+    flex: 0 0 50%;
+}
+.efficient_list
+{
+    position: relative;
+    
+}
+
+.efficient_list_img{
+    background-color: var(--color-light-green);
+    padding: 12px;
+    border-radius: 16px;
+    width: 17%;
+}
+
+.efficient_list_h3{
+padding-top: 20px;
+padding-bottom: 20px;
+font-family: var(--font-family-h);
+font-size: 20px;
+}
+.efficient_list_p{
+font-size: 16px;
+padding-bottom: 30px;
+}
+
+.efficient_aside{
+    flex: 0 0 50%;
+}
+
+.increased_in_productivity_img{
+    position: relative;
+}

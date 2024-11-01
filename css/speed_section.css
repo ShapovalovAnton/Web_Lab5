@@ -1,0 +1,65 @@
+.speed_img{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    }
+    
+    .waves_speed{
+        float: right;
+        position: relative;
+        right:-72px;
+    }
+    
+    .speed_aside_img{
+        flex: 0 0 50%;
+    }
+    .speed_position{
+        display: flex;
+        position: relative;
+        gap:6dvw;
+    
+    }
+    
+    .section_speed_content{
+        align-self: center;
+        flex: 0 0 50%;
+    }
+    
+   
+    .speed_logo{
+        background-color: var(--color-light-green);
+        padding: 10px 20px;
+        border-radius: 25px;
+        width: 90px;
+        font-weight: bold;
+        
+    }
+    
+    .speed_h
+    {
+        font-size: 40px; 
+        font-family: var(--font-family-h);
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    
+    .speed_text{
+        font-size: 18px;
+        max-width: 600px;
+        padding-bottom: 40px;
+    
+    
+    }
+    
+    .speed_list{
+        position: relative;
+        width: 500px;
+    
+    }
+    
+    .get_started_btn_white
+    {
+        padding: 15px 20px;
+        border-radius: 25px;
+        border: 2px solid var(--color-dark-green);
+    }

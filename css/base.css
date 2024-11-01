@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+    /* Кольори */
+    --color-light-green: #DDF0A7;
+    --color-dark-green: #162E3C;
+    /* Шрифти */
+    --font-family-h: "Fraunces";
+    --font-family-text: "Space Grotesk";
+    --font-size-h1: 64px;
+    --font-size-h2: 48px;
+    --font-size-text: 32px;
+    /* Розміри секторів */
+    --width: 1519px;
+    --width-sidebar: 533px;
+    --width-main: 986px;
+    --height: 10000px;
+    --height-menu: 72px;
+    --height-header: 138px;
+    --height-footer: 103px;
+
+    --padding-left: 83px;
+
+}
