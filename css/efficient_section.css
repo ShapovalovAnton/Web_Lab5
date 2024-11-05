@@ -1,7 +1,5 @@
 
-.gap_30px{
-    gap:30px;
-}
+
 
 
 .efficient_img{
@@ -10,11 +8,6 @@ width: 100%;
 .efficient_content{
     align-self: center;
     flex: 0 0 50%;
-}
-.efficient_list
-{
-    position: relative;
-    
 }
 
 .efficient_list_img{
@@ -37,8 +30,4 @@ padding-bottom: 30px;
 
 .efficient_aside{
     flex: 0 0 50%;
-}
-
-.increased_in_productivity_img{
-    position: relative;
 }

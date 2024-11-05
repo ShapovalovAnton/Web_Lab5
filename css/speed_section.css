@@ -1,4 +1,4 @@
-.speed_img{
+    .speed_img{
     position: relative;
     z-index: 1;
     width: 100%;
@@ -13,9 +13,9 @@
     .speed_aside_img{
         flex: 0 0 50%;
     }
+    
     .speed_position{
         display: flex;
-        position: relative;
         gap:6dvw;
     
     }
@@ -51,11 +51,6 @@
     
     }
     
-    .speed_list{
-        position: relative;
-        width: 500px;
-    
-    }
     
     .get_started_btn_white
     {

@@ -1,5 +1,5 @@
 @media (max-width:838px){
-    /* .vector1_header, .vector2_header, .vector3_header */
+    /* Прибираємо aside та робимо меню-гамбургер */
     .menu_nav,.aside_header, .aside_comment {
         display: none;
     }
@@ -40,7 +40,7 @@
     .section_speed_content{
         text-align: center;
     }
-
+/* Коментарі та ключові в колонку */
     .key_benefits_list{
         flex-direction: column;
         align-items: center;
@@ -49,6 +49,7 @@
     .key_benefits_list .key_benefits_list_point{
         width: 75%;
     }
+    
 
     .comment_section_list{
         flex-direction: column;
@@ -81,10 +82,12 @@
 }
 
 @media (max-width:1035px){
-    .aside_section_speed, .efficient_aside, .subscribe_img_aside{
+    /* Прибираємо великі aside */
+    .aside_section_speed, .efficient_aside, .subscribe_img_aside, .key_benefits_aside, .waves_pricing{
         display: none;
 
     }
+    /* Розміщуємо контент по центру */
 
     .speed_position, .footer_pages, .footer_contact{
         justify-content: center;
@@ -103,9 +106,6 @@
         align-items: center;
     }
 
-    .key_benefits_aside{
-        display: none;
-    }
 
     .speed_text, .efficient_list_p{
         text-align: center;
@@ -119,6 +119,7 @@
         align-items: center;
     }
 
+    /* Ціни, підвал, блог розміщуємо в стовпчик */
     .pricing_plans_list, .blog_list{
         flex-direction: column;
         gap:50px;
@@ -130,9 +131,7 @@
         padding: 5%;
     }
     
-    .waves_pricing{
-        display: none;
-    }
+    
 
     .input_label_subscribe {
         flex-direction: column;

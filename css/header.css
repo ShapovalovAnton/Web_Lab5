@@ -5,7 +5,7 @@ flex-direction: column;
 height: auto;
 }
 
-
+/* Самий верх сторінки */
 .header_start_page 
 {
     padding-left: 5%;
@@ -87,7 +87,7 @@ top: -8px;
 
 }
 
-
+/* Кнопки з меню */
 .login-btn a {
     border: 2px solid var(--color-dark-green);
     padding: 10px 20px;
@@ -111,7 +111,7 @@ top: -8px;
 
     background-color:#11222c;
 }
-
+/* 3 фонових неважливих зображення */
 .aside_header{
 z-index: 1;
 height: 0;
@@ -124,6 +124,23 @@ height: 0;
     left: 0px;
 }
 
+.vector2_header{
+    max-width: 260px;
+    position: absolute;
+    right: 0;
+    top:250px;
+
+}
+
+.vector3_header{
+
+    max-width: 320px;
+    position: absolute;
+    left:0;
+    top:500px;
+
+}
+/* Низ хедеру */
 .head_start_business_color
 {
     background-color:  var(--color-dark-green);
@@ -154,26 +171,11 @@ height: 0;
     padding-top: 30px;
     max-width: 100vw;
     z-index: 5;
-    padding-bottom: 5%;
+    padding-bottom: 30px;
     align-self: center;
 }
 
-.vector2_header{
-    max-width: 260px;
-    position: absolute;
-    right: 0;
-    top:250px;
 
-}
-
-.vector3_header{
-
-    max-width: 320px;
-    position: absolute;
-    left:0;
-    top:500px;
-
-}
 
 
 .get_started_btn

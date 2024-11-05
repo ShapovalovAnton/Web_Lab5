@@ -1,7 +1,7 @@
 @import url(base.css);
 @import url(reset.css);
 @import url(header.css);
-@import url(main.css);
+@import url(blog.css);
 @import url(footer.css);
 @import url(speed_section.css);
 @import url(key_benefits_section.css);
@@ -95,6 +95,10 @@ a:hover{
 .align_content_space_between{
     align-content: space-between;
 }
+
+.gap_30px{
+    gap:30px;
+}
 /* .container {
 padding-left: 50px;
 padding-right: 50px;
@@ -111,4 +115,18 @@ padding-right: 50px;
 .get_start_list{
     gap: 40px;
     flex-wrap: wrap;
+}
+
+.main 
+{
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 15px;
+    font-family: var(--font-family-text);
+}
+
+.article{
+gap: 150px;
+margin-top: 100px;
+margin-bottom: 100px;
 }
